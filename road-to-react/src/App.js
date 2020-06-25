@@ -1,11 +1,13 @@
 import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import LandingPage from "./components/landing/Landing";
 function App() {
   return (
-    <div>
-      <h1>Hello World, my journey with Road to React with Ant Design</h1>
-      <LandingPage />
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path="/" component={LandingPage} />
+      </Switch>
+    </Router>
   );
 }
 
