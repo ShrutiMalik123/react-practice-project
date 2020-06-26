@@ -3,15 +3,15 @@ import React from "react";
 import Carousel from "react-slick";
 // material-ui components
 // @material-ui/icons
-//import LocationOn from "@material-ui/icons/LocationOn";
+import LocationOn from "@material-ui/icons/LocationOn";
 // core components
-import GridContainer from "components/Grid/GridContainer.js";
-import GridItem from "components/Grid/GridItem.js";
-import Card from "components/Card/Card.js";
+import GridContainer from "../Grid/GridContainer";
+import GridItem from "../Grid/GridItem";
+import Card from "../Card/Card";
 
-import image1 from "assets/img/bg.jpg";
-import image2 from "assets/img/bg2.jpg";
-import image3 from "assets/img/bg3.jpg";
+import image1 from "assets/img/B1.jpg";
+import image2 from "assets/img/B1.jpg";
+import image3 from "assets/img/B1.jpg";
 
 export default function SectionCarousel() {
   const settings = {
@@ -31,7 +31,7 @@ export default function SectionCarousel() {
               <img src={image1} alt="First slide" className="slick-image" />
               <div className="slick-caption">
                 <h4>
-                  <div className="slick-icons" />
+                  <LocationOn className="slick-icons" />
                   Yellowstone National Park, United States
                 </h4>
               </div>
@@ -40,7 +40,7 @@ export default function SectionCarousel() {
               <img src={image2} alt="Second slide" className="slick-image" />
               <div className="slick-caption">
                 <h4>
-                  <div className="slick-icons" />
+                  <LocationOn className="slick-icons" />
                   Somewhere Beyond, United States
                 </h4>
               </div>
@@ -49,7 +49,7 @@ export default function SectionCarousel() {
               <img src={image3} alt="Third slide" className="slick-image" />
               <div className="slick-caption">
                 <h4>
-                  <div className="slick-icons" />
+                  <LocationOn className="slick-icons" />
                   Yellowstone National Park, United States
                 </h4>
               </div>
