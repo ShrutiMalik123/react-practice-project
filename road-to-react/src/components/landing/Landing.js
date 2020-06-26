@@ -1,9 +1,10 @@
 import React from "react";
+import SectionCarousel from "./Carousel";
 
 function LandingPage() {
   return (
     <div>
-      <h1>Hello World, my journey with Road to React with Ant Design</h1>
+      <SectionCarousel />
     </div>
   );
 }

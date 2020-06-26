@@ -3,7 +3,7 @@ import React from "react";
 import Carousel from "react-slick";
 // material-ui components
 // @material-ui/icons
-import LocationOn from "@material-ui/icons/LocationOn";
+//import LocationOn from "@material-ui/icons/LocationOn";
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
@@ -31,7 +31,7 @@ export default function SectionCarousel() {
               <img src={image1} alt="First slide" className="slick-image" />
               <div className="slick-caption">
                 <h4>
-                  <LocationOn className="slick-icons" />
+                  <div className="slick-icons" />
                   Yellowstone National Park, United States
                 </h4>
               </div>
@@ -40,7 +40,7 @@ export default function SectionCarousel() {
               <img src={image2} alt="Second slide" className="slick-image" />
               <div className="slick-caption">
                 <h4>
-                  <LocationOn className="slick-icons" />
+                  <div className="slick-icons" />
                   Somewhere Beyond, United States
                 </h4>
               </div>
@@ -49,7 +49,7 @@ export default function SectionCarousel() {
               <img src={image3} alt="Third slide" className="slick-image" />
               <div className="slick-caption">
                 <h4>
-                  <LocationOn className="slick-icons" />
+                  <div className="slick-icons" />
                   Yellowstone National Park, United States
                 </h4>
               </div>
