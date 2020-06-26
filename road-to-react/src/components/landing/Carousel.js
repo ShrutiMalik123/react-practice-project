@@ -9,9 +9,9 @@ import GridContainer from "../Grid/GridContainer";
 import GridItem from "../Grid/GridItem";
 import Card from "../Card/Card";
 
-import image1 from "assets/img/B1.jpg";
-import image2 from "assets/img/B1.jpg";
-import image3 from "assets/img/B1.jpg";
+import image1 from "../../assets/img/B1.jpg";
+import image2 from "../../assets/img/B1.jpg";
+import image3 from "../../assets/img/B1.jpg";
 
 export default function SectionCarousel() {
   const settings = {
