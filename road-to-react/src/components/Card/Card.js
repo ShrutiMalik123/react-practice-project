@@ -6,7 +6,7 @@ import PropTypes from "prop-types";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 // @material-ui/icons
-import styles from "/assets/jss/cardStyle.js";
+import styles from "assets/jss/cardStyle.js";
 
 const useStyles = makeStyles(styles);
 
