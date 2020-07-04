@@ -24,7 +24,7 @@ export default function SectionCarousel() {
   };
   return (
     <GridContainer>
-      <GridItem xs={1} sm={1} md={1}>
+      <GridItem xs={0} sm={0} md={0}>
         <Card>
           <Carousel {...settings}>
             <div>
